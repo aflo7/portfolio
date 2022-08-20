@@ -1,14 +1,18 @@
 // import logo from './logo.svg';
-import "./App.css"
+import "./styles/App.css"
+import './styles/bg.css'
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
-import Home from "./Home"
-import Projects from "./Projects"
-import Contact from "./Contact"
+import Home from "./components/Home"
+import Projects from "./components/Projects"
+import Contact from "./components/Contact"
 import About from "./About"
+
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <div className="appwrapper">
+
+
         <nav className="navwrapper">
           <div className="navname">
             <Link to="/">Andres Flores</Link>
@@ -28,17 +32,26 @@ function App() {
           </div>
         </nav>
 
-
-      <Routes>
-        <Route path="/contact" element={<Contact/>}/>
-        <Route path="/" element={<Home/>}/>
-        <Route path='/projects' element={<Projects/>}/>
-        <Route path="/about" element={<About/>}/>
-
         
-      </Routes>
-      </div>
+    
 
+        <footer>
+          <a href="https://github.com/aflo7" target='_blank' rel="noreferrer">
+            <img
+              src={require("./images/gh.png")}
+              alt="github-logo"
+              className="ghlogo"
+            />
+          </a>
+        </footer>
+
+        <Routes>
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   )
 }
