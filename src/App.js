@@ -15,7 +15,7 @@ function App() {
 
         <nav className="navwrapper">
           <div className="navname">
-            <Link to="/">Andres Flores</Link>
+            <Link to="/portfolio">Andres Flores</Link>
           </div>
 
           <div className="navlinks">
@@ -47,7 +47,7 @@ function App() {
 
         <Routes>
           <Route path="/contact" element={<Contact />} />
-          <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
         </Routes>
