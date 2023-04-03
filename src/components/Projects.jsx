@@ -1,9 +1,9 @@
 import React, { useState } from "react"
 import { FaExternalLinkAlt } from "react-icons/fa"
-import reactBlogImg from "./images/react-blog.png"
-import todoListImg from "./images/todo-list.png"
-import odinBookImg from "./images/odinbook.png"
-import netJetsImg from "./images/netjets.png"
+import reactBlogImg from "../images/react-blog.png"
+import todoListImg from "../images/todo-list.png"
+import odinBookImg from "../images/odinbook.png"
+import netJetsImg from "../images/netjets.png"
 
 function Projects() {
     const [hovering1, setHovering1] = useState(false)

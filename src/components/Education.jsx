@@ -1,7 +1,7 @@
 import React from "react"
-import bgImg from "./images/bg.png"
-import odinImg from "./images/odin.gif"
-import redRaiderImg from "./images/redraider.png"
+import bgImg from "../images/bg.png"
+import odinImg from "../images/odin.gif"
+import redRaiderImg from "../images/redraider.png"
 
 function Education() {
     return (
