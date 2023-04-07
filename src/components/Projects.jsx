@@ -58,7 +58,7 @@ function Projects() {
                 <div
                     style={{
                         textAlign: "center",
-                        padding: "5px"
+                        padding: "10px"
                     }}
                 >
                     NetJets Key Registry
@@ -93,7 +93,7 @@ function Projects() {
                 <div
                     style={{
                         textAlign: "center",
-                        padding: "5px"
+                        padding: "10px"
                     }}
                 >
                     Odinbook
@@ -124,7 +124,7 @@ function Projects() {
                 <div
                     style={{
                         textAlign: "center",
-                        padding: "5px"
+                        padding: "10px"
                     }}
                 >
                     Todo List
@@ -157,7 +157,7 @@ function Projects() {
                 <div
                     style={{
                         textAlign: "center",
-                        padding: "5px"
+                        padding: "10px"
                     }}
                 >
                     React Blog

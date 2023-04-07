@@ -50,7 +50,7 @@ function Education() {
                         padding: "5px"
                     }}
                 >
-                    Odin Project
+                    The Odin Project
                 </p>
                 <div className="school-card-img-wrapper">
                     <img width={"100%"} src={odinImg} />
