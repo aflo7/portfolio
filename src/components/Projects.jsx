@@ -69,7 +69,7 @@ function Projects() {
                     onMouseOut={handleMouseOut1}
                 >
                     <a
-                        href="https://dly30ew67s37r.cloudfront.net/"
+                        href="https://www.google.com"
                         target="_blank"
                     >
                         <img width={"100%"} src={netJetsImg} />
