@@ -3,6 +3,7 @@ import Education from "./components/Education"
 import Projects from "./components/Projects"
 import Coursework from "./components/Coursework"
 import Downloadables from "./components/Downloadables"
+import { AiFillGithub } from "react-icons/ai"
 
 function App() {
     return (
@@ -23,9 +24,17 @@ function App() {
                             <Education />
                         </div>
                         <Coursework />
+                        <footer>
+                            <div className="github-link">
+                                <a
+                                    href="https://github.com/aflo7"
+                                    target="_blank"
+                                >
 
-
-                        <Downloadables />
+                                    <AiFillGithub size={"2rem"} className="github-logo"/>
+                                </a>
+                            </div>
+                        </footer>
                     </div>
                 </div>
             </div>
