@@ -1,0 +1,16 @@
+.coursework-wrapper {
+    background-color: var(--buff);
+}
+
+.course-list {
+    border-radius: 0;
+}
+
+.course-list > li {
+    background-color: var(--buff);
+}
+
+.li-text {
+  color: black;
+  font-weight: bold;
+}

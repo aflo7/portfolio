@@ -68,10 +68,7 @@ function Projects() {
                     onMouseOver={handleMouseOver1}
                     onMouseOut={handleMouseOut1}
                 >
-                    <a
-                        href="https://www.google.com"
-                        target="_blank"
-                    >
+                    <a href="https://www.google.com" target="_blank">
                         <img width={"100%"} src={netJetsImg} />
 
                         {hovering1 && (

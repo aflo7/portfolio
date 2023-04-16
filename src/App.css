@@ -11,6 +11,14 @@
         sans-serif;
 }
 
+p {
+    color: white;
+}
+
+div {
+    color: white;
+}
+
 .project-wrapper {
     padding: 30px;
     background-color: var(--bean);
@@ -43,11 +51,6 @@
     align-items: center;
 }
 
-.doc-wrapper {
-    width: 100%;
-    border: 30px solid var(--buff);
-    box-sizing: border-box;
-}
 .bottom-wrapper {
     display: flex;
     flex-direction: row;

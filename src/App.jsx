@@ -1,9 +1,8 @@
 import Skills from "./components/Skills"
 import Education from "./components/Education"
 import Projects from "./components/Projects"
-import Button from "react-bootstrap/Button"
-import Modal from "react-bootstrap/Modal"
-import doc from "./images/doc.png"
+import Coursework from "./components/Coursework"
+import Downloadables from "./components/Downloadables"
 
 function App() {
     return (
@@ -20,12 +19,13 @@ function App() {
                         <div className="bottom-wrapper">
                             <Projects />
                             <Skills />
+
                             <Education />
                         </div>
+                        <Coursework />
 
-                        <div className="doc-wrapper">
-                            <img src={doc} width={'100%'}/>
-                        </div>
+
+                        <Downloadables />
                     </div>
                 </div>
             </div>
