@@ -24,7 +24,7 @@ function App() {
                             <Education />
                         </div>
                         <Coursework />
-                        <footer>
+                        {/* <footer>
                             <div className="github-link">
                                 <a
                                     href="https://github.com/aflo7"
@@ -34,7 +34,7 @@ function App() {
                                     <AiFillGithub size={"2rem"} className="github-logo"/>
                                 </a>
                             </div>
-                        </footer>
+                        </footer> */}
                     </div>
                 </div>
             </div>

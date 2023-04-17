@@ -77,6 +77,16 @@ function Coursework() {
                     as="li"
                     className="d-flex justify-content-between align-items-start"
                 >
+                    <div className="ms-2 me-auto li-text">Database Management Systems</div>
+                    <Badge bg="primary" pill>
+                        B
+                    </Badge>
+                </ListGroup.Item>
+
+                <ListGroup.Item
+                    as="li"
+                    className="d-flex justify-content-between align-items-start"
+                >
                     <div className="ms-2 me-auto li-text">Operating Systems</div>
                     <Badge bg="primary" pill>
                         B
