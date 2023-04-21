@@ -5,6 +5,7 @@ import todoListImg from "../images/todo-list.png"
 import odinBookImg from "../images/odinbook.png"
 import netJetsImg from "../images/netjets.png"
 import dashImg from '../images/dash.png'
+import contactApp from '../images/contact.png'
 
 function Projects() {
     const [hovering1, setHovering1] = useState(false)
@@ -12,6 +13,8 @@ function Projects() {
     const [hovering3, setHovering3] = useState(false)
     const [hovering4, setHovering4] = useState(false)
     const [hovering5, setHovering5] = useState(false)
+    const [hovering6, setHovering6] = useState(false)
+
 
 
     const handleMouseOver1 = () => {
@@ -52,6 +55,14 @@ function Projects() {
 
     const handleMouseOut5 = () => {
         setHovering5(false)
+    }
+
+    const handleMouseOver6 = () => {
+        setHovering6(true)
+    }
+
+    const handleMouseOut6 = () => {
+        setHovering6(false)
     }
 
     return (
@@ -223,6 +234,44 @@ function Projects() {
                     </a>
 
                     {hovering5 && (
+                        <FaExternalLinkAlt
+                            size={"3rem"}
+                            style={{
+                                position: "absolute",
+                                top: "50%",
+                                left: "50%",
+                                transform: "translate(-50%, -50%)"
+                            }}
+                        />
+                    )}
+                </div>
+            </div>
+
+
+             <div className="card-wrapper">
+                <div
+                    style={{
+                        textAlign: "center",
+                        padding: "10px"
+                    }}
+                >
+                    Java Contact App
+                </div>
+
+                <div
+                    className="card-img-wrapper"
+                    onMouseOver={handleMouseOver6}
+                    onMouseOut={handleMouseOut6}
+                    style={{ position: "relative" }}
+                >
+                    <a
+                        href="https://github.com/aflo7/my-java-projects/tree/main/Final_Flores"
+                        target="_blank"
+                    >
+                        <img width={"100%"} src={contactApp} />
+                    </a>
+
+                    {hovering6 && (
                         <FaExternalLinkAlt
                             size={"3rem"}
                             style={{
