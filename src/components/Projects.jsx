@@ -4,12 +4,15 @@ import reactBlogImg from "../images/react-blog.png"
 import todoListImg from "../images/todo-list.png"
 import odinBookImg from "../images/odinbook.png"
 import netJetsImg from "../images/netjets.png"
+import dashImg from '../images/dash.png'
 
 function Projects() {
     const [hovering1, setHovering1] = useState(false)
     const [hovering2, setHovering2] = useState(false)
     const [hovering3, setHovering3] = useState(false)
     const [hovering4, setHovering4] = useState(false)
+    const [hovering5, setHovering5] = useState(false)
+
 
     const handleMouseOver1 = () => {
         setHovering1(true)
@@ -41,6 +44,14 @@ function Projects() {
 
     const handleMouseOut4 = () => {
         setHovering4(false)
+    }
+
+    const handleMouseOver5 = () => {
+        setHovering5(true)
+    }
+
+    const handleMouseOut5 = () => {
+        setHovering5(false)
     }
 
     return (
@@ -186,6 +197,46 @@ function Projects() {
                     )}
                 </div>
             </div>
+
+
+            <div className="card-wrapper">
+                <div
+                    style={{
+                        textAlign: "center",
+                        padding: "10px"
+                    }}
+                >
+                    Dashboard
+                </div>
+
+                <div
+                    className="card-img-wrapper"
+                    onMouseOver={handleMouseOver5}
+                    onMouseOut={handleMouseOut5}
+                    style={{ position: "relative" }}
+                >
+                    <a
+                        href="https://aflo7.github.io/dashboard/"
+                        target="_blank"
+                    >
+                        <img width={"100%"} src={dashImg} />
+                    </a>
+
+                    {hovering5 && (
+                        <FaExternalLinkAlt
+                            size={"3rem"}
+                            style={{
+                                position: "absolute",
+                                top: "50%",
+                                left: "50%",
+                                transform: "translate(-50%, -50%)"
+                            }}
+                        />
+                    )}
+                </div>
+            </div>
+
+
         </div>
     )
 }
