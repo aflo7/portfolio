@@ -4,8 +4,9 @@ import reactBlogImg from "../images/react-blog.png"
 import todoListImg from "../images/todo-list.png"
 import odinBookImg from "../images/odinbook.png"
 import netJetsImg from "../images/netjets.png"
-import dashImg from '../images/dash.png'
-import contactApp from '../images/contact.png'
+import dashImg from "../images/dash.png"
+import contactApp from "../images/contact.png"
+import starbuzzPhoto from '../images/starbuzz.png'
 
 function Projects() {
     const [hovering1, setHovering1] = useState(false)
@@ -14,8 +15,7 @@ function Projects() {
     const [hovering4, setHovering4] = useState(false)
     const [hovering5, setHovering5] = useState(false)
     const [hovering6, setHovering6] = useState(false)
-
-
+    const [hovering7, setHovering7] = useState(false)
 
     const handleMouseOver1 = () => {
         setHovering1(true)
@@ -63,6 +63,14 @@ function Projects() {
 
     const handleMouseOut6 = () => {
         setHovering6(false)
+    }
+
+    const handleMouseOver7 = () => {
+        setHovering7(true)
+    }
+
+    const handleMouseOut7 = () => {
+        setHovering7(false)
     }
 
     return (
@@ -209,7 +217,6 @@ function Projects() {
                 </div>
             </div>
 
-
             <div className="card-wrapper">
                 <div
                     style={{
@@ -247,8 +254,7 @@ function Projects() {
                 </div>
             </div>
 
-
-             <div className="card-wrapper">
+            <div className="card-wrapper">
                 <div
                     style={{
                         textAlign: "center",
@@ -285,7 +291,42 @@ function Projects() {
                 </div>
             </div>
 
+            <div className="card-wrapper">
+                <div
+                    style={{
+                        textAlign: "center",
+                        padding: "10px"
+                    }}
+                >
+                    Starbuzz
+                </div>
 
+                <div
+                    className="card-img-wrapper"
+                    onMouseOver={handleMouseOver7}
+                    onMouseOut={handleMouseOut7}
+                    style={{ position: "relative" }}
+                >
+                    <a
+                        href="https://github.com/aflo7/react_projects/tree/main/starbuzz"
+                        target="_blank"
+                    >
+                        <img width={"100%"} src={starbuzzPhoto} />
+                    </a>
+
+                    {hovering7 && (
+                        <FaExternalLinkAlt
+                            size={"3rem"}
+                            style={{
+                                position: "absolute",
+                                top: "50%",
+                                left: "50%",
+                                transform: "translate(-50%, -50%)"
+                            }}
+                        />
+                    )}
+                </div>
+            </div>
         </div>
     )
 }
