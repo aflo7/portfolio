@@ -6,7 +6,6 @@ function Coursework() {
     return (
         <div className="coursework-wrapper">
             <ListGroup className="course-list">
-              
                 <ListGroup.Item
                     as="li"
                     className="d-flex justify-content-between align-items-start"
@@ -23,31 +22,33 @@ function Coursework() {
                     as="li"
                     className="d-flex justify-content-between align-items-start"
                 >
-                    <div className="ms-2 me-auto li-text">Programming Languages</div>
+                    <div className="ms-2 me-auto li-text">
+                        Programming Languages
+                    </div>
                     <Badge bg="primary" pill>
                         A
                     </Badge>
                 </ListGroup.Item>
 
-              
-
                 <ListGroup.Item
                     as="li"
                     className="d-flex justify-content-between align-items-start"
                 >
-                    <div className="ms-2 me-auto li-text">Programming Fundamentals</div>
+                    <div className="ms-2 me-auto li-text">
+                        Programming Fundamentals in C++
+                    </div>
                     <Badge bg="primary" pill>
                         A
                     </Badge>
                 </ListGroup.Item>
 
-                
-
                 <ListGroup.Item
                     as="li"
                     className="d-flex justify-content-between align-items-start"
                 >
-                    <div className="ms-2 me-auto li-text">Software Engineering</div>
+                    <div className="ms-2 me-auto li-text">
+                        Software Engineering
+                    </div>
                     <Badge bg="primary" pill>
                         A
                     </Badge>
@@ -67,7 +68,41 @@ function Coursework() {
                     as="li"
                     className="d-flex justify-content-between align-items-start"
                 >
-                    <div className="ms-2 me-auto li-text">Intermediate Programming</div>
+                    <div className="ms-2 me-auto li-text">
+                        Intermediate Programming in Java
+                    </div>
+                    <Badge bg="primary" pill>
+                        A
+                    </Badge>
+                </ListGroup.Item>
+
+                <ListGroup.Item
+                    as="li"
+                    className="d-flex justify-content-between align-items-start"
+                >
+                    <div className="ms-2 me-auto li-text">English 1</div>
+                    <Badge bg="primary" pill>
+                        A
+                    </Badge>
+                </ListGroup.Item>
+
+                <ListGroup.Item
+                    as="li"
+                    className="d-flex justify-content-between align-items-start"
+                >
+                    <div className="ms-2 me-auto li-text">English 2</div>
+                    <Badge bg="primary" pill>
+                        A
+                    </Badge>
+                </ListGroup.Item>
+
+                <ListGroup.Item
+                    as="li"
+                    className="d-flex justify-content-between align-items-start"
+                >
+                    <div className="ms-2 me-auto li-text">
+                        Intermediate Programming in C++
+                    </div>
                     <Badge bg="primary" pill>
                         B
                     </Badge>
@@ -77,7 +112,9 @@ function Coursework() {
                     as="li"
                     className="d-flex justify-content-between align-items-start"
                 >
-                    <div className="ms-2 me-auto li-text">Database Management Systems</div>
+                    <div className="ms-2 me-auto li-text">
+                        Database Management Systems
+                    </div>
                     <Badge bg="primary" pill>
                         B
                     </Badge>
@@ -87,7 +124,9 @@ function Coursework() {
                     as="li"
                     className="d-flex justify-content-between align-items-start"
                 >
-                    <div className="ms-2 me-auto li-text">Operating Systems</div>
+                    <div className="ms-2 me-auto li-text">
+                        Operating Systems
+                    </div>
                     <Badge bg="primary" pill>
                         B
                     </Badge>
@@ -109,7 +148,9 @@ function Coursework() {
                     as="li"
                     className="d-flex justify-content-between align-items-start"
                 >
-                    <div className="ms-2 me-auto li-text">Computer Organization</div>
+                    <div className="ms-2 me-auto li-text">
+                        Computer Organization
+                    </div>
                     <Badge bg="primary" pill>
                         B
                     </Badge>
@@ -141,7 +182,9 @@ function Coursework() {
                     as="li"
                     className="d-flex justify-content-between align-items-start"
                 >
-                    <div className="ms-2 me-auto li-text">Computer Networking</div>
+                    <div className="ms-2 me-auto li-text">
+                        Computer Networking
+                    </div>
                     <Badge bg="primary" pill>
                         In progress
                     </Badge>
