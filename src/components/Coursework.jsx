@@ -80,26 +80,6 @@ function Coursework() {
                     as="li"
                     className="d-flex justify-content-between align-items-start"
                 >
-                    <div className="ms-2 me-auto li-text">English 1</div>
-                    <Badge bg="primary" pill>
-                        A
-                    </Badge>
-                </ListGroup.Item>
-
-                <ListGroup.Item
-                    as="li"
-                    className="d-flex justify-content-between align-items-start"
-                >
-                    <div className="ms-2 me-auto li-text">English 2</div>
-                    <Badge bg="primary" pill>
-                        A
-                    </Badge>
-                </ListGroup.Item>
-
-                <ListGroup.Item
-                    as="li"
-                    className="d-flex justify-content-between align-items-start"
-                >
                     <div className="ms-2 me-auto li-text">
                         Intermediate Programming in C++
                     </div>
