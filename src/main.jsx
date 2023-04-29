@@ -6,6 +6,8 @@ import './index.css'
 import "./App.css"
 import './styles/coursework.css'
 import './styles/downloadables.css'
+import './styles/Contact.css'
+
 
 
 

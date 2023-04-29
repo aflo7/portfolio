@@ -4,6 +4,7 @@ import Projects from "./components/Projects"
 import Coursework from "./components/Coursework"
 import Downloadables from "./components/Downloadables"
 import { AiFillGithub } from "react-icons/ai"
+import Contact from "./components/Contact"
 
 function App() {
     return (
@@ -35,6 +36,8 @@ function App() {
                                 </a>
                             </div>
                         </footer> */}
+
+                        <Contact />
                     </div>
                 </div>
             </div>
