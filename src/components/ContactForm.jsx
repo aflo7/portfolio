@@ -16,8 +16,14 @@ function ContactForm() {
 
     const onSubmit = (e) => {
         e.preventDefault()
+        e.target.reset()
 
-        send("service_f7dgdb8", "template_e6h49ke", toSend, "QivFmUxQJb5LfkPGJ")
+        send(
+            import.meta.env.VITE_SERVICE_ID,
+            import.meta.env.VITE_TEMPLATE_ID,
+            toSend,
+            import.meta.env.VITE_USER_ID
+        )
             .then((response) => {
                 toast.success("Message sent", {
                     theme: "colored"
@@ -28,8 +34,6 @@ function ContactForm() {
                     theme: "colored"
                 })
             })
-
-        e.target.reset()
     }
 
     const handleChange = (e) => {
