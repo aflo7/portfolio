@@ -93,26 +93,6 @@ nav {
     color: white;
 }
 
-.card-wrapper {
-    margin-top: 30px;
-    border: none;
-    border-radius: 15px;
-    padding: 25px;
-    background-color: var(--bole);
-    cursor: pointer;
-}
-
-.card-img-wrapper:hover {
-    opacity: 0.6;
-}
-
-.card-img-wrapper > img {
-    border-radius: 10px;
-}
-.card-img-wrapper > a > img {
-    border-radius: 10px;
-}
-
 .skill-wrapper {
     padding: 10px;
     margin-top: 30px;
@@ -134,14 +114,6 @@ nav {
     border-radius: 10px;
 }
 
-a::selection {
-    color: white;
-}
-
-a:visited {
-    color: white;
-}
-
 .school-card-img-wrapper {
     padding: 15px;
 }
@@ -156,8 +128,4 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 12pt;
-}
-
-.github-logo:hover {
-    color: grey;
 }

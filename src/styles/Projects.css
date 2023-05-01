@@ -1,0 +1,30 @@
+.card-wrapper {
+  margin-top: 30px;
+  border: none;
+  border-radius: 15px;
+  padding: 25px;
+  background-color: var(--bole);
+}
+
+.card-img-wrapper > img {
+  border-radius: 10px;
+}
+.card-img-wrapper > a > img {
+  border-radius: 10px;
+}
+
+.a-link {
+  display: flex;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.project-link-wrapper {
+  display: flex;
+  justify-content: space-around;
+  font-size: 12pt;
+  padding-top: 10px;
+
+}
