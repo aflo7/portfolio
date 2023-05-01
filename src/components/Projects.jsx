@@ -8,8 +8,9 @@ import dashImg from "../images/dash.png"
 import contactApp from "../images/contact.png"
 import starbuzzPhoto from "../images/starbuzz.png"
 import "../styles/Projects.css"
+import { AiOutlineInfoCircle } from "react-icons/ai"
 
-function Projects() {
+function Projects({toggleBottomWrapper}) {
     return (
         <div className="project-wrapper">
             <div
@@ -33,6 +34,13 @@ function Projects() {
                 <div className="card-img-wrapper">
                     <img width={"100%"} src={netJetsImg} />
                 </div>
+
+                <div className="project-link-wrapper">
+                    <div className="a-link" onClick={toggleBottomWrapper}>
+                        <div>Info&nbsp;</div>
+                        <AiOutlineInfoCircle style={{ color: "white" }} />
+                    </div>
+                </div>
             </div>
 
             <div className="card-wrapper">
@@ -51,12 +59,12 @@ function Projects() {
 
                 <div className="project-link-wrapper">
                     <a
-                        href="https://app1.memberssonly.xyz/"
+                        href="https://odinbook.memberssonly.xyz/"
                         target="_blank"
                         className="a-link"
                     >
                         <div>Live&nbsp;</div>
-                        <FaExternalLinkAlt style={{color: 'white'}} />
+                        <FaExternalLinkAlt style={{ color: "white" }} />
                     </a>
 
                     <a
@@ -65,7 +73,7 @@ function Projects() {
                         className="a-link"
                     >
                         <div>Source&nbsp;</div>
-                        <FaExternalLinkAlt style={{color: 'white'}} />
+                        <FaExternalLinkAlt style={{ color: "white" }} />
                     </a>
                 </div>
             </div>
@@ -90,7 +98,7 @@ function Projects() {
                         className="a-link"
                     >
                         <div>Live&nbsp;</div>
-                        <FaExternalLinkAlt style={{color: 'white'}} />
+                        <FaExternalLinkAlt style={{ color: "white" }} />
                     </a>
 
                     <a
@@ -99,7 +107,7 @@ function Projects() {
                         className="a-link"
                     >
                         <div>Source&nbsp;</div>
-                        <FaExternalLinkAlt style={{color: 'white'}} />
+                        <FaExternalLinkAlt style={{ color: "white" }} />
                     </a>
                 </div>
             </div>
@@ -125,7 +133,7 @@ function Projects() {
                         className="a-link"
                     >
                         <div>Live&nbsp;</div>
-                        <FaExternalLinkAlt style={{color: 'white'}} />
+                        <FaExternalLinkAlt style={{ color: "white" }} />
                     </a>
 
                     <a
@@ -134,7 +142,7 @@ function Projects() {
                         className="a-link"
                     >
                         <div>Source&nbsp;</div>
-                        <FaExternalLinkAlt style={{color: 'white'}} />
+                        <FaExternalLinkAlt style={{ color: "white" }} />
                     </a>
                 </div>
             </div>
@@ -160,7 +168,16 @@ function Projects() {
                         className="a-link"
                     >
                         <div>Live&nbsp;</div>
-                        <FaExternalLinkAlt style={{color: 'white'}} />
+                        <FaExternalLinkAlt style={{ color: "white" }} />
+                    </a>
+
+                    <a
+                        href="https://github.com/aflo7/blog_frontend_dec_17"
+                        target="_blank"
+                        className="a-link"
+                    >
+                        <div>Source&nbsp;</div>
+                        <FaExternalLinkAlt style={{ color: "white" }} />
                     </a>
                 </div>
             </div>
@@ -186,7 +203,7 @@ function Projects() {
                         className="a-link"
                     >
                         <div>Source&nbsp;</div>
-                        <FaExternalLinkAlt style={{color: 'white'}} />
+                        <FaExternalLinkAlt style={{ color: "white" }} />
                     </a>
                 </div>
             </div>
@@ -212,7 +229,7 @@ function Projects() {
                         className="a-link"
                     >
                         <div>Source&nbsp;</div>
-                        <FaExternalLinkAlt style={{color: 'white'}}/>
+                        <FaExternalLinkAlt style={{ color: "white" }} />
                     </a>
                 </div>
             </div>

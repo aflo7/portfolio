@@ -15,6 +15,7 @@
 
 .a-link {
   display: flex;
+  cursor: pointer;
 }
 
 a {
@@ -26,5 +27,23 @@ a {
   justify-content: space-around;
   font-size: 12pt;
   padding-top: 10px;
+
+}
+
+.project-info-wrapper {
+  color: white;
+  padding: 10px;
+  background-color: var(--bole);
+}
+
+.back-btn {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  background-color: var(--buff);
+}
+
+.back-btn:hover {
+  background-color: #c69476;
 
 }
