@@ -2,11 +2,10 @@ import Skills from "./components/Skills"
 import Education from "./components/Education"
 import Projects from "./components/Projects"
 import Coursework from "./components/Coursework"
-import Downloadables from "./components/Downloadables"
 import { AiFillGithub } from "react-icons/ai"
 import Contact from "./components/Contact"
 import { useState } from "react"
-import plane from "./images/plane.png"
+import plan2 from "./images/plan2.png"
 
 function App() {
     const [showBottomWrapper, setShowBottomWrapper] = useState(true)
@@ -48,8 +47,7 @@ function App() {
                                 <div
                                     style={{
                                         color: "white",
-                                        paddingTop: "20px",
-                                        textAlign: "justify"
+                                        paddingTop: "20px"
                                     }}
                                 >
                                     Group capstone project that was overseen by
@@ -64,8 +62,7 @@ function App() {
 
                                 <div
                                     style={{
-                                        color: "white",
-                                        textAlign: "justify"
+                                        color: "white"
                                     }}
                                 >
                                     Technologies used: AWS Appsync, DynamoDB,
@@ -75,8 +72,7 @@ function App() {
 
                                 <div
                                     style={{
-                                        color: "white",
-                                        textAlign: "justify"
+                                        color: "white"
                                     }}
                                 >
                                     <div>
@@ -115,14 +111,8 @@ function App() {
                                 </div>
                                 <br></br>
 
-                                <div
-                                    style={{
-                                        display: "flex",
-                                        justifyContent: "center"
-                                    }}
-                                >
-                                    <img src={plane}></img>
-                                </div>
+                                
+                                    <img src={plan2} width={'100%'}/>
                             </div>
                         )}
 

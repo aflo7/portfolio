@@ -34,6 +34,7 @@ a {
   color: white;
   padding: 10px;
   background-color: var(--bole);
+  font-size: 14pt;
 }
 
 .back-btn {
