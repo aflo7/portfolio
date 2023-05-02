@@ -9,8 +9,9 @@ import contactApp from "../images/contact.png"
 import starbuzzPhoto from "../images/starbuzz.png"
 import "../styles/Projects.css"
 import { AiOutlineInfoCircle } from "react-icons/ai"
+import landingPage from "../images/handshake.png"
 
-function Projects({toggleBottomWrapper}) {
+function Projects({ toggleBottomWrapper }) {
     return (
         <div className="project-wrapper">
             <div
@@ -225,6 +226,41 @@ function Projects({toggleBottomWrapper}) {
                 <div className="project-link-wrapper">
                     <a
                         href="https://github.com/aflo7/react_projects/tree/main/starbuzz"
+                        target="_blank"
+                        className="a-link"
+                    >
+                        <div>Source&nbsp;</div>
+                        <FaExternalLinkAlt style={{ color: "white" }} />
+                    </a>
+                </div>
+            </div>
+
+            <div className="card-wrapper">
+                <div
+                    style={{
+                        textAlign: "center",
+                        padding: "10px"
+                    }}
+                >
+                    Landing Page
+                </div>
+
+                <div className="card-img-wrapper">
+                    <img width={"100%"} src={landingPage} />
+                </div>
+
+                <div className="project-link-wrapper">
+                    <a
+                        href="https://aflo7.github.io/landing-page/"
+                        target="_blank"
+                        className="a-link"
+                    >
+                        <div>Live&nbsp;</div>
+                        <FaExternalLinkAlt style={{ color: "white" }} />
+                    </a>
+
+                    <a
+                        href="https://github.com/aflo7/landing-page"
                         target="_blank"
                         className="a-link"
                     >
