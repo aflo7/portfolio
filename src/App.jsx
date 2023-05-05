@@ -21,8 +21,7 @@ function App() {
                     <div style={{ display: "flex", flexDirection: "column" }}>
                         <div className="info-wrapper">
                             <div className="info-text">
-                                My name is Andres Flores. I'm a student and a
-                                programmer. Welcome to my portfolio!
+                                Andres Flores
                             </div>
                         </div>
 
