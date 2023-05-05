@@ -21,7 +21,8 @@ function App() {
                     <div style={{ display: "flex", flexDirection: "column" }}>
                         <div className="info-wrapper">
                             <div className="info-text">
-                                Andres Flores
+                                <div>Andres Flores</div>
+                                <div>Portfolio</div>
                             </div>
                         </div>
 

@@ -41,7 +41,7 @@ div {
 }
 
 .info-wrapper {
-    height: 600px;
+    height: 400px;
     background-image: url(./images/20518370.jpeg);
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -70,6 +70,14 @@ div {
     }
 }
 
+.app-wrapper {
+    border-left: 10px solid var(--bole);
+    border-right: 10px solid var(--bole);
+    border-bottom: 10px solid var(--bole);
+
+
+}
+
 @media screen and (min-width: 1240px) {
     .app-wrapper {
         width: 1240px;
@@ -84,10 +92,12 @@ div {
 .info-text {
     color: white;
     font-size: 20pt;
-    background-color: black;
-    text-align: center;
+    background-color: var(--bole);
+    /* text-align: left; */
     width: 100%;
-    padding: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav {
