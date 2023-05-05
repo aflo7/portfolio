@@ -9,7 +9,7 @@ function Education() {
             <div
                 style={{
                     textAlign: "center",
-                    padding: "5px"
+                    padding: "0px"
                 }}
             >
                 EDUCATION

@@ -22,26 +22,26 @@ div {
 }
 
 .project-wrapper {
-    padding: 20px;
+    padding: 30px;
     background-color: var(--bean);
     flex: 1;
 }
 
 .education-wrapper {
-    padding: 20px;
+    padding: 30px;
     background-color: var(--bean);
     flex: 1;
 }
 
 .skills-wrapper {
-    padding: 20px;
+    padding: 30px;
     background-color: red;
     background-color: var(--bole);
     flex: 1;
 }
 
 .info-wrapper {
-    height: 400px;
+    height: 600px;
     background-image: url(./images/20518370.jpeg);
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -99,7 +99,7 @@ nav {
 }
 
 .skill-wrapper {
-    padding: 10px;
+    padding:5px;
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
