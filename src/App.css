@@ -60,6 +60,10 @@ div {
     flex-direction: row;
     justify-content: space-between;
     height: fit-content;
+    border-top: 10px solid var(--bole);
+    border-bottom: 10px solid var(--bole);
+
+
 }
 
 

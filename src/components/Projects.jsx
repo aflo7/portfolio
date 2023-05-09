@@ -94,7 +94,7 @@ function Projects({ toggleBottomWrapper }) {
 
                 <div className="project-link-wrapper">
                     <a
-                        href="https://aflo7.github.io/todo-app/"
+                        href="https://aflo7.github.io/todo_app/"
                         target="_blank"
                         className="a-link"
                     >
@@ -129,7 +129,7 @@ function Projects({ toggleBottomWrapper }) {
 
                 <div className="project-link-wrapper">
                     <a
-                        href="https://aflo7.github.io/blog_frontend_dec_17/"
+                        href="https://aflo7.github.io/react_blog/"
                         target="_blank"
                         className="a-link"
                     >
@@ -138,7 +138,7 @@ function Projects({ toggleBottomWrapper }) {
                     </a>
 
                     <a
-                        href="https://github.com/aflo7/blog_frontend_dec_17"
+                        href="https://github.com/aflo7/react_blog"
                         target="_blank"
                         className="a-link"
                     >
@@ -173,7 +173,7 @@ function Projects({ toggleBottomWrapper }) {
                     </a>
 
                     <a
-                        href="https://github.com/aflo7/blog_frontend_dec_17"
+                        href="https://github.com/aflo7/dashboard"
                         target="_blank"
                         className="a-link"
                     >
