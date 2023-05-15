@@ -16,11 +16,10 @@ function Projects({ toggleBottomWrapper }) {
         <div className="project-wrapper">
             <div
                 style={{
-                    textAlign: "center",
-                    padding: "0px"
+                    textAlign: "center"
                 }}
             >
-                PROJECTS
+                Projects
             </div>
 
             <div className="card-wrapper">

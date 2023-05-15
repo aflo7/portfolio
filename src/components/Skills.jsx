@@ -18,11 +18,10 @@ function Skills() {
         <div className="skills-wrapper">
             <div
                 style={{
-                    textAlign: "center",
-                    padding: "0px"
+                    textAlign: "center"
                 }}
             >
-                SKILLS
+                Skills
             </div>
 
             <div className="skill-wrapper">

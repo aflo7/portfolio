@@ -8,11 +8,10 @@ function Education() {
         <div className="education-wrapper">
             <div
                 style={{
-                    textAlign: "center",
-                    padding: "0px"
+                    textAlign: "center"
                 }}
             >
-                EDUCATION
+                Education
             </div>
 
             <div className="edu-wrapper">

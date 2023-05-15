@@ -19,11 +19,14 @@ function App() {
             <div className="app-wrapper">
                 <div style={{ display: "flex", flexDirection: "column" }}>
                     <div style={{ display: "flex", flexDirection: "column" }}>
-                        <div className="info-wrapper">
-                            <div className="info-text">
+
+                    <div className="info-text">
                                 <div>Andres Flores</div>
                                 <div>Portfolio</div>
                             </div>
+                            
+                        <div className="info-wrapper">
+                            
                         </div>
 
                         {showBottomWrapper && (
