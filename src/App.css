@@ -115,10 +115,6 @@ div {
     border-radius: 10px;
 }
 
-.school-card-img-wrapper {
-    padding: 20px;
-}
-
 footer {
     background-color: var(--bean);
     display: flex;

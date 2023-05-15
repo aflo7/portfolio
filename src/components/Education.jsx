@@ -21,9 +21,9 @@ function Education() {
                         padding: "5px"
                     }}
                 >
-                    Bowling Green State University
+                    Bowling Green
                 </p>
-                <div className="school-card-img-wrapper">
+                <div style={{paddingTop: '10px'}}>
                     <img width={"100%"} src={bgImg} />
                 </div>
             </div>
@@ -37,7 +37,7 @@ function Education() {
                 >
                     Harvey High School
                 </p>
-                <div className="school-card-img-wrapper">
+                <div>
                     <img width={"100%"} src={redRaiderImg} />
                 </div>
             </div>
@@ -51,7 +51,7 @@ function Education() {
                 >
                     The Odin Project
                 </p>
-                <div className="school-card-img-wrapper">
+                <div>
                     <img width={"100%"} src={odinImg} />
                 </div>
             </div>
