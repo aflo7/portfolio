@@ -46,12 +46,12 @@ function ContactForm() {
                 <Form.Label className="contact-title">Contact Me</Form.Label>
 
                 <Form.Group className="mb-3">
-                    <Form.Label style={{ fontSize: "12pt" }}>
-                        Your name
+                    <Form.Label style={{ fontSize: "12pt", fontFamily: 'cyrMedium' }}>
+                        Name
                     </Form.Label>
                     <Form.Control
                         name="from_name"
-                        placeholder="Your name"
+                        placeholder="Name"
                         required
                         style={{ fontSize: "12pt" }}
                         onChange={handleChange}
@@ -59,12 +59,12 @@ function ContactForm() {
                 </Form.Group>
 
                 <Form.Group className="mb-3">
-                    <Form.Label style={{ fontSize: "12pt" }}>
-                        Your email
+                    <Form.Label style={{ fontSize: "12pt", fontFamily: 'cyrMedium' }}>
+                        Email
                     </Form.Label>
                     <Form.Control
                         name="reply_to"
-                        placeholder="Your email"
+                        placeholder="Email"
                         required
                         style={{ fontSize: "12pt" }}
                         onChange={handleChange}
@@ -72,7 +72,7 @@ function ContactForm() {
                 </Form.Group>
 
                 <Form.Group className="mb-3">
-                    <Form.Label style={{ fontSize: "12pt" }}>
+                    <Form.Label style={{ fontSize: "12pt", fontFamily: 'cyrMedium' }}>
                         Message
                     </Form.Label>
                     <Form.Control

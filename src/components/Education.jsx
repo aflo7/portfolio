@@ -8,7 +8,8 @@ function Education() {
         <div className="education-wrapper">
             <div
                 style={{
-                    textAlign: "center"
+                    textAlign: "center",
+                    fontFamily: 'cyrMedium'
                 }}
             >
                 Education

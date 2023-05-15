@@ -14,18 +14,23 @@
     width: 100%;
     z-index: 10;
     position: absolute;
-    width: 70%;
-    font-size: 14pt;
+    width: 100%;
+    padding: 5px;
 }
 
 .send-btn {
     width: 100%;
-    font-size: 12pt;
 }
 
 .contact-title {
     text-align: center;
     width: 100%;
     color: white;
-    font-size: 12pt;
+    font-family: cyrMedium, Roboto, "sans-serif";
+}
+
+@media screen and (min-width: 700px) {
+    .contact-form {
+        width: 60%;
+    }
 }

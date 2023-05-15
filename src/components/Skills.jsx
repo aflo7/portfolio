@@ -18,7 +18,9 @@ function Skills() {
         <div className="skills-wrapper">
             <div
                 style={{
-                    textAlign: "center"
+                    textAlign: "center",
+                    fontFamily: 'cyrMedium'
+
                 }}
             >
                 Skills

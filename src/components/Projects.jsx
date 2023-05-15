@@ -16,7 +16,8 @@ function Projects({ toggleBottomWrapper }) {
         <div className="project-wrapper">
             <div
                 style={{
-                    textAlign: "center"
+                    textAlign: "center",
+                    fontFamily: 'cyrMedium'
                 }}
             >
                 Projects

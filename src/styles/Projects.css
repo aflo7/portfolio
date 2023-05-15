@@ -1,50 +1,54 @@
 .card-wrapper {
-  margin-top: 30px;
-  border: none;
-  border-radius: 15px;
-  padding: 25px;
-  background-color: var(--bole);
+    margin-top: 30px;
+    border: none;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: var(--bole);
 }
 
 .card-img-wrapper > img {
-  border-radius: 10px;
+    border-radius: 10px;
 }
 .card-img-wrapper > a > img {
-  border-radius: 10px;
+    border-radius: 10px;
 }
 
 .a-link {
-  display: flex;
-  cursor: pointer;
+    display: flex;
+    cursor: pointer;
 }
 
 a {
-  text-decoration: none !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: gray;
 }
 
 .project-link-wrapper {
-  display: flex;
-  justify-content: space-around;
-  font-size: 12pt;
-  padding-top: 10px;
-
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
 }
 
+.project-link-wrapper div:hover {
+    color: rgb(171, 171, 171);
+    text-decoration: underline;
+}
 .project-info-wrapper {
-  color: white;
-  padding: 10px;
-  background-color: var(--bole);
-  font-size: 14pt;
+    color: white;
+    padding-top: 5px;
+    background-color: var(--bole);
 }
 
 .back-btn {
-  width: 100%;
-  padding: 5px;
-  border: none;
-  background-color: var(--buff);
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background-color: var(--buff);
 }
 
 .back-btn:hover {
-  background-color: #c69476;
-
+    background-color: #c69476;
 }
