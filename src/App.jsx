@@ -19,15 +19,12 @@ function App() {
             <div className="app-wrapper">
                 <div style={{ display: "flex", flexDirection: "column" }}>
                     <div style={{ display: "flex", flexDirection: "column" }}>
-
-                    <div className="info-text">
-                                <div>Andres Flores</div>
-                                <div>Portfolio</div>
-                            </div>
-                            
-                        <div className="info-wrapper">
-                            
+                        <div className="info-text">
+                            <div>Andres Flores</div>
+                            <div>Portfolio</div>
                         </div>
+
+                        <div className="info-wrapper"></div>
 
                         {showBottomWrapper && (
                             <div className="bottom-wrapper">
@@ -54,11 +51,11 @@ function App() {
                                     }}
                                 >
                                     Group capstone project that was overseen by
-                                    NetJets. Created a serverless application
-                                    utilizing AWS technologies and Next.js for
+                                    NetJets. We created a serverless application
+                                    using AWS technologies for the backend and Next.js for
                                     the front end. The application keeps track
                                     of NetJets entities such as owners, crew
-                                    members, etc. Additionally, add new entities
+                                    members, etc. Additionally, users are able to add new entities
                                     and modify existing ones.
                                 </div>
                                 <br></br>
@@ -68,8 +65,17 @@ function App() {
                                         color: "white"
                                     }}
                                 >
-                                    Technologies used: AWS Appsync, DynamoDB,
-                                    Javascript, Next.js, HTML, CSS
+                                    For the frontend, we used Next.js
+                                </div>
+                                <br></br>
+                                <div
+                                    style={{
+                                        color: "white"
+                                    }}
+                                >
+                                    For the backend, we used Amazon Web Services
+                                    such as AppSync, DynamoDB, Cloudfront, S3,
+                                    and WAF
                                 </div>
                                 <br></br>
 
@@ -79,8 +85,7 @@ function App() {
                                     }}
                                 >
                                     <div>
-                                        My accomplishments for this group
-                                        project included:
+                                        For this group project, I...
                                     </div>
                                     <br></br>
 
@@ -91,20 +96,24 @@ function App() {
                                         </li>
                                         <li>- styled the homepage using CSS</li>
                                         <li>
-                                            - used appsync to create queries to
+                                            - used AppSync to create queries to
                                             the backend database
                                         </li>
+
                                         <li>
-                                            - integrated appsync API with the
-                                            frontend
+                                            - created JavaScript resolvers within AppSync
+                                        </li>
+                                        <li>
+                                            - integrated the AppSync API with the
+                                            frontend (with Axios)
                                         </li>
                                         <li>
                                             - uploaded static site files to an
-                                            s3 bucket
+                                            S3 bucket
                                         </li>
                                         <li>
-                                            - deployed the website using AWS
-                                            cloudfront
+                                            - deployed the website using
+                                            CloudFront
                                         </li>
                                         <li>
                                             - created weekly demos showing off
@@ -114,8 +123,7 @@ function App() {
                                 </div>
                                 <br></br>
 
-                                
-                                    <img src={plan2} width={'100%'}/>
+                                <img src={plan2} width={"100%"} />
                             </div>
                         )}
 
