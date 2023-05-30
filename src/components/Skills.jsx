@@ -6,7 +6,7 @@ import {
     IoLogoJavascript,
     IoLogoCss3
 } from "react-icons/io"
-import { SiPhp, SiNextdotjs, SiMongodb, SiMysql } from "react-icons/si"
+import { SiPhp, SiNextdotjs, SiMongodb, SiMysql, SiExpress } from "react-icons/si"
 import { CgCPlusPlus } from "react-icons/cg"
 import { DiLinux } from "react-icons/di"
 import { GrGraphQl } from "react-icons/gr"
@@ -49,6 +49,11 @@ function Skills() {
             <div className="skill-wrapper">
                 <p>Node.js</p>
                 <IoLogoNodejs size={"3rem"} />
+            </div>
+
+            <div className="skill-wrapper">
+                <p>Express</p>
+                <SiExpress size={"3rem"} />
             </div>
 
             <div className="skill-wrapper">
