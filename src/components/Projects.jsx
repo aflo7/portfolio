@@ -10,6 +10,7 @@ import starbuzzPhoto from "../images/starbuzz.png"
 import "../styles/Projects.css"
 import { AiOutlineInfoCircle } from "react-icons/ai"
 import landingPage from "../images/handshake.png"
+import dogHomePage from "../images/dog1.jpeg"
 
 function Projects({ toggleBottomWrapper }) {
     return (
@@ -209,31 +210,7 @@ function Projects({ toggleBottomWrapper }) {
                 </div>
             </div>
 
-            <div className="card-wrapper">
-                <div
-                    style={{
-                        textAlign: "center",
-                        padding: "10px"
-                    }}
-                >
-                    Starbuzz
-                </div>
-
-                <div className="card-img-wrapper">
-                    <img width={"100%"} src={starbuzzPhoto} />
-                </div>
-
-                <div className="project-link-wrapper">
-                    <a
-                        href="https://github.com/aflo7/react_projects/tree/main/starbuzz"
-                        target="_blank"
-                        className="a-link"
-                    >
-                        <div>Source&nbsp;</div>
-                        <FaExternalLinkAlt style={{ color: "white" }} />
-                    </a>
-                </div>
-            </div>
+            
 
             <div className="card-wrapper">
                 <div
@@ -261,6 +238,41 @@ function Projects({ toggleBottomWrapper }) {
 
                     <a
                         href="https://github.com/aflo7/landing-page"
+                        target="_blank"
+                        className="a-link"
+                    >
+                        <div>Source&nbsp;</div>
+                        <FaExternalLinkAlt style={{ color: "white" }} />
+                    </a>
+                </div>
+            </div>
+
+            <div className="card-wrapper">
+                <div
+                    style={{
+                        textAlign: "center",
+                        padding: "10px"
+                    }}
+                >
+                    Home Page
+                </div>
+
+                <div className="card-img-wrapper">
+                    <img width={"100%"} src={dogHomePage} />
+                </div>
+
+                <div className="project-link-wrapper">
+                    <a
+                        href="https://aflo7.github.io/dog-homepage/"
+                        target="_blank"
+                        className="a-link"
+                    >
+                        <div>Live&nbsp;</div>
+                        <FaExternalLinkAlt style={{ color: "white" }} />
+                    </a>
+
+                    <a
+                        href="https://github.com/aflo7/dog-homepage"
                         target="_blank"
                         className="a-link"
                     >
