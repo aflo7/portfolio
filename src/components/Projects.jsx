@@ -11,6 +11,7 @@ import "../styles/Projects.css"
 import { AiOutlineInfoCircle } from "react-icons/ai"
 import landingPage from "../images/handshake.png"
 import dogHomePage from "../images/dog1.jpeg"
+import multiStepForm from '../images/multi.png'
 
 function Projects({ toggleBottomWrapper }) {
     return (
@@ -256,11 +257,9 @@ function Projects({ toggleBottomWrapper }) {
                 >
                     Home Page
                 </div>
-
                 <div className="card-img-wrapper">
                     <img width={"100%"} src={dogHomePage} />
                 </div>
-
                 <div className="project-link-wrapper">
                     <a
                         href="https://aflo7.github.io/dog-homepage/"
@@ -279,8 +278,43 @@ function Projects({ toggleBottomWrapper }) {
                         <div>Source&nbsp;</div>
                         <FaExternalLinkAlt style={{ color: "white" }} />
                     </a>
-                </div>
+                </div>   
             </div>
+
+            <div className="card-wrapper">
+                <div
+                    style={{
+                        textAlign: "center",
+                        padding: "10px"
+                    }}
+                >
+                    Multi Step Form
+                </div>
+                <div className="card-img-wrapper">
+                    <img width={"100%"} src={multiStepForm} />
+                </div>
+                <div className="project-link-wrapper">
+                    <a
+                        href="https://aflo7.github.io/multi-step-form/"
+                        target="_blank"
+                        className="a-link"
+                    >
+                        <div>Live&nbsp;</div>
+                        <FaExternalLinkAlt style={{ color: "white" }} />
+                    </a>
+
+                    <a
+                        href="https://github.com/aflo7/multi-step-form"
+                        target="_blank"
+                        className="a-link"
+                    >
+                        <div>Source&nbsp;</div>
+                        <FaExternalLinkAlt style={{ color: "white" }} />
+                    </a>
+                </div>   
+            </div>
+
+
         </div>
     )
 }
