@@ -69,7 +69,7 @@ function Coursework() {
                     className="d-flex justify-content-between align-items-start"
                 >
                     <div className="ms-2 me-auto li-text">
-                        Intermediate Programming in Java
+                        Java Programming
                     </div>
                     {/* <Badge bg="primary" pill>
                         A
