@@ -62,7 +62,7 @@ function Projects({ toggleBottomWrapper }) {
 
                 <div className="project-link-wrapper">
                     <a
-                        href="https://odinbook.memberssonly.xyz/"
+                        href="http://54.88.215.42:4000/"
                         target="_blank"
                         className="a-link"
                     >
