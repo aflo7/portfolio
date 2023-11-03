@@ -6,6 +6,7 @@ function Contact() {
         <div style={{position: 'relative'}}>
             <ContactForm />
 
+
             <ul className="background">
                 <li></li>
                 <li></li>
