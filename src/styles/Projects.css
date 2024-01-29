@@ -91,3 +91,16 @@ a:hover {
 .multistepform-img {
   background-image: url(../images/multi.png);
 }
+
+.resume-img {
+  background-image: url(../assets/avatar.png);
+  background-position: top;
+}
+
+.aws-img {
+  background-image: url(../images/AWS_logo_RGB.jpeg);
+}
+
+.yahtzee-img {
+  background-image: url(../images/cpp.png);
+}

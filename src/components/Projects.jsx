@@ -326,6 +326,98 @@ function Projects({ toggleBottomWrapper }) {
           </a>
         </div>
       </div>
+
+      <div className="card-wrapper">
+        <div
+          style={{
+            textAlign: 'center'
+          }}
+        >
+          Resume Builder
+        </div>
+        <div className="card-img-wrapper resume-img">
+          {/* <img width={'100%'} src={multiStepForm} /> */}
+        </div>
+        <div className="project-link-wrapper">
+          <a
+            href="https://aflo7.github.io/cv-builder/"
+            target="_blank"
+            className="a-link"
+          >
+            <div>Live&nbsp;</div>
+            <FaExternalLinkAlt style={{ color: 'white' }} />
+          </a>
+
+          <a
+            href="https://github.com/aflo7/cv-builder"
+            target="_blank"
+            className="a-link"
+          >
+            <div>Docs&nbsp;</div>
+            <FaExternalLinkAlt style={{ color: 'white' }} />
+          </a>
+        </div>
+      </div>
+
+      <div className="card-wrapper">
+        <div
+          style={{
+            textAlign: 'center'
+          }}
+        >
+         Cloud Resume
+        </div>
+        <div className="card-img-wrapper aws-img">
+          {/* <img width={'100%'} src={multiStepForm} /> */}
+        </div>
+        <div className="project-link-wrapper">
+          <a
+            href="https://01.andres-flores-cloud-resume.com/"
+            target="_blank"
+            className="a-link"
+          >
+            <div>Live&nbsp;</div>
+            <FaExternalLinkAlt style={{ color: 'white' }} />
+          </a>
+
+          <a
+            href="https://github.com/aflo7/cloud-resume"
+            target="_blank"
+            className="a-link"
+          >
+            <div>Docs&nbsp;</div>
+            <FaExternalLinkAlt style={{ color: 'white' }} />
+          </a>
+        </div>
+      </div>
+
+      <div className="card-wrapper">
+        <div
+          style={{
+            textAlign: 'center'
+          }}
+        >
+         Yahtzee
+        </div>
+        <div className="card-img-wrapper yahtzee-img">
+          {/* <img width={'100%'} src={multiStepForm} /> */}
+        </div>
+        <div className="project-link-wrapper">
+          
+
+          <a
+            href="https://github.com/aflo7/cloud-resume"
+            target="_blank"
+            className="a-link"
+          >
+            <div>Docs&nbsp;</div>
+            <FaExternalLinkAlt style={{ color: 'white' }} />
+          </a>
+        </div>
+      </div>
+
+
+
     </div>
   );
 }
