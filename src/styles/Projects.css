@@ -1,11 +1,9 @@
 .card-wrapper {
-  /* width: 300px; */
   display: flex;
   flex-direction: column;
   gap: 10px;
   background-color: var(--bole);
   padding: 20px;
-
 }
 
 .a-link {
