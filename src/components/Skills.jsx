@@ -21,9 +21,9 @@ import { TbBrandVscode } from 'react-icons/tb';
 
 function Skills() {
   return (
-    <div className="skills-wrapper">
+    <div className="skills-wrapper" style={{color: 'black'}}>
       <div className="skill-wrapper">
-        <p>JavaScript</p>
+        <p style={{color: 'black'}}>JavaScript</p>
         <IoLogoJavascript size={'3rem'} />
       </div>
 

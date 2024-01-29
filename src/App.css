@@ -60,6 +60,16 @@ div {
   padding-bottom: 20px;
 }
 
+.skills-wrapper p {
+  color: black;
+}
+
+.skills-wrapper div {
+  color: black;
+
+}
+
+
 .info-wrapper {
   height: 400px;
   background-image: url(./images/20518370.jpeg);
