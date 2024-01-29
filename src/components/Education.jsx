@@ -6,14 +6,14 @@ import redRaiderImg from "../images/redraider.png"
 function Education() {
     return (
         <div className="education-wrapper">
-            <div
+            {/* <div
                 style={{
                     textAlign: "center",
                     fontFamily: 'cyrMedium'
                 }}
             >
                 Education
-            </div>
+            </div> */}
 
             <div className="edu-wrapper">
                 <p

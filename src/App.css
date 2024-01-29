@@ -21,6 +21,11 @@
     font-family: cyrLight, Roboto, 'sans-serif';
 }
 
+body {
+    font-family: cyrLight, Roboto, 'sans-serif';
+    color: white;
+}
+
 p {
     color: white;
 }
@@ -32,20 +37,24 @@ div {
 .project-wrapper {
     padding: 30px;
     background-color: var(--bean);
-    flex: 1;
+    /* flex: 1; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
 }
 
 .education-wrapper {
     padding: 30px;
     background-color: var(--bean);
-    flex: 1;
+    /* flex: 1; */
 }
 
 .skills-wrapper {
     padding: 30px;
     background-color: red;
     background-color: var(--bole);
-    flex: 1;
+    /* flex: 1; */
 }
 
 .info-wrapper {
@@ -62,12 +71,12 @@ div {
 }
 
 .bottom-wrapper {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: fit-content;
     border-top: 10px solid var(--bole);
-    border-bottom: 10px solid var(--bole);
+    border-bottom: 10px solid var(--bole); */
 }
 
 .app-wrapper {
@@ -91,15 +100,12 @@ div {
     padding: 10px;
     margin-top: 30px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     border-radius: 10px;
     background-color: var(--buff);
 }
 
-.skill-wrapper > p {
-    padding-left: 10px;
-    line-height: 60px;
-}
 
 .edu-wrapper {
     background-color: var(--bole);

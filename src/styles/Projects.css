@@ -1,9 +1,6 @@
 .card-wrapper {
-    margin-top: 30px;
-    border: none;
-    border-radius: 15px;
-    padding: 25px;
-    background-color: var(--bole);
+    width: 300px;
+    border: 1px solid red;
 }
 
 .card-img-wrapper > img {

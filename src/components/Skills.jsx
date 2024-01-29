@@ -16,7 +16,7 @@ import { TbBrandVscode } from "react-icons/tb"
 function Skills() {
     return (
         <div className="skills-wrapper">
-            <div
+            {/* <div
                 style={{
                     textAlign: "center",
                     fontFamily: 'cyrMedium'
@@ -24,7 +24,7 @@ function Skills() {
                 }}
             >
                 Skills
-            </div>
+            </div> */}
 
             <div className="skill-wrapper">
                 <p>JavaScript</p>
