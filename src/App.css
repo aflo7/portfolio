@@ -1,144 +1,136 @@
 @font-face {
-    font-family: cyrLight;
-    src: url(./assets/fonts/HelveticaNeueCyr-Light.1eb80cac8e7301df097f.woff);
-
+  font-family: cyrLight;
+  src: url(./assets/fonts/HelveticaNeueCyr-Light.1eb80cac8e7301df097f.woff);
 }
 
 @font-face {
-    font-family: cyrMedium;
-    src: url(./assets/fonts/HelveticaNeueCyr-Medium.38778f81253085655aa2.woff);
-
+  font-family: cyrMedium;
+  src: url(./assets/fonts/HelveticaNeueCyr-Medium.38778f81253085655aa2.woff);
 }
 
 :root {
-    --main-bg-color: brown;
-    --bole: #774936;
-    --buff: #d69f7e;
-    --pale: #f5d0c5;
-    --bean: #3c0000;
-    font-size: 16pt;
-    color: white;
-    font-family: cyrLight, Roboto, 'sans-serif';
+  --main-bg-color: brown;
+  --bole: #774936;
+  --buff: #d69f7e;
+  --pale: #f5d0c5;
+  --bean: #3c0000;
+  font-size: 1.4rem;
+  color: white;
+  font-family: cyrLight, Roboto, 'sans-serif';
 }
 
 body {
-    font-family: cyrLight, Roboto, 'sans-serif';
-    color: white;
+  font-family: cyrLight, Roboto, 'sans-serif';
+  color: white;
+  line-height: normal;
 }
 
 p {
-    color: white;
+  color: white;
 }
 
 div {
-    color: white;
+  color: white;
 }
 
 .project-wrapper {
-    padding: 30px;
-    background-color: var(--bean);
-    /* flex: 1; */
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-around;
+  padding: 20px;
+  background-color: var(--bean);
+  /* flex: 1; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
 }
 
 .education-wrapper {
-    padding: 30px;
-    background-color: var(--bean);
-    /* flex: 1; */
+  background-color: var(--bean);
+  background-color: var(--bean);
+  /* flex: 1; */
+  background-color: var(--bean);
+  /* flex: 1; */
 }
 
 .skills-wrapper {
-    padding: 30px;
-    background-color: red;
-    background-color: var(--bole);
-    /* flex: 1; */
+  background-color: var(--bole);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .info-wrapper {
-    height: 400px;
-    background-image: url(./images/20518370.jpeg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-    opacity: 0.7;
+  height: 400px;
+  background-image: url(./images/20518370.jpeg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  opacity: 0.8;
 }
 
 .main {
-    background-color: black;
-}
-
-.bottom-wrapper {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: fit-content;
-    border-top: 10px solid var(--bole);
-    border-bottom: 10px solid var(--bole); */
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .app-wrapper {
-    border-left: 10px solid var(--bole);
-    border-right: 10px solid var(--bole);
-    border-bottom: 10px solid var(--bole);
+  border-left: 10px solid var(--bole);
+  border-right: 10px solid var(--bole);
+  border-bottom: 10px solid var(--bole);
 }
 
 .info-text {
-    color: white;
-    background-color: var(--bole);
-    width: 100%;
-    padding: 5px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    display: flex;
-    justify-content: space-between;
+  color: white;
+  background-color: var(--bole);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .skill-wrapper {
-    padding: 10px;
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 10px;
-    background-color: var(--buff);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--buff);
 }
 
-
 .edu-wrapper {
-    background-color: var(--bole);
-    padding: 30px;
-    margin-top: 30px;
-    border-radius: 10px;
+  background-color: var(--bole);
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
 }
 
 footer {
-    background-color: var(--bean);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 12pt;
+  background-color: var(--bean);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12pt;
 }
 
 @media screen and (min-width: 800px) {
-    .bottom-wrapper {
-        flex-direction: row;
-    }
+  .bottom-wrapper {
+    flex-direction: row;
+  }
 }
 
 @media screen and (min-width: 1240px) {
-    .app-wrapper {
-        width: 1240px;
-    }
+  .app-wrapper {
+    width: 1240px;
+  }
 
-    .main {
-        display: flex;
-        justify-content: center;
-    }
+  .main {
+    display: flex;
+    justify-content: center;
+  }
 }

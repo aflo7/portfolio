@@ -16,22 +16,23 @@ function App() {
 
   return (
     <div className="main">
+      <div className="info-text">
+        <div>Andres Flores</div>
+        <div>Portfolio</div>
+      </div>
       <div className="app-wrapper">
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <div style={{ display: 'flex', flexDirection: 'column' }}>
-            <div className="info-text">
-              <div>Andres Flores</div>
-              <div>Portfolio</div>
+            <div className="info-wrapper">
+              
             </div>
 
-            <div className="info-wrapper"></div>
-
             {showBottomWrapper && (
-              <div className="bottom-wrapper">
+              <>
                 <Projects toggleBottomWrapper={toggleBottomWrapper} />
                 <Skills />
                 {/* <Education /> */}
-              </div>
+              </>
             )}
 
             {!showBottomWrapper && (
@@ -82,22 +83,21 @@ function App() {
 
                   <ul>
                     <li>
-                      - used bootstrap to make the forms and buttons more
+                      used bootstrap to make the forms and buttons more
                       appealing
                     </li>
-                    <li>- styled the homepage using CSS</li>
+                    <li>styled the homepage using CSS</li>
                     <li>
-                      - used AppSync to create queries to the backend database
+                      used AppSync to create queries to the backend database
                     </li>
 
-                    <li>- created JavaScript resolvers within AppSync</li>
+                    <li>created JavaScript resolvers within AppSync</li>
                     <li>
-                      - integrated the AppSync API with the frontend (with
-                      Axios)
+                      integrated the AppSync API with the frontend (with Axios)
                     </li>
-                    <li>- uploaded static site files to an S3 bucket</li>
-                    <li>- deployed the website using CloudFront</li>
-                    <li>- created weekly demos showing off our product</li>
+                    <li>uploaded static site files to an S3 bucket</li>
+                    <li>deployed the website using CloudFront</li>
+                    <li>created weekly demos showing off our product</li>
                   </ul>
                 </div>
                 <br></br>

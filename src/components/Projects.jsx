@@ -6,7 +6,6 @@ import odinBookImg from '../images/odinbook.png';
 import netJetsImg from '../images/netjets.png';
 import dashImg from '../images/dash.png';
 import contactApp from '../images/contact.png';
-import starbuzzPhoto from '../images/starbuzz.png';
 import '../styles/Projects.css';
 import { AiOutlineInfoCircle } from 'react-icons/ai';
 import landingPage from '../images/handshake.png';
@@ -17,19 +16,16 @@ import appleLogo from '../images/apple.png';
 function Projects({ toggleBottomWrapper }) {
   return (
     <div className="project-wrapper">
-      
-
       <div className="card-wrapper">
         <div
           style={{
-            textAlign: 'center',
-            padding: '10px'
+            textAlign: 'center'
           }}
         >
           NetJets Key Registry
         </div>
-        <div className="card-img-wrapper">
-          <img width={'100%'} src={netJetsImg} />
+        <div className="card-img-wrapper netjets-img">
+          {/* <img width={'100%'} src={netJetsImg} /> */}
         </div>
 
         <div className="project-link-wrapper">
@@ -43,15 +39,14 @@ function Projects({ toggleBottomWrapper }) {
       <div className="card-wrapper">
         <div
           style={{
-            textAlign: 'center',
-            padding: '10px'
+            textAlign: 'center'
           }}
         >
           Odinbook
         </div>
 
-        <div className="card-img-wrapper">
-          <img width={'100%'} src={odinBookImg} />
+        <div className="card-img-wrapper odinbook-img">
+          {/* <img width={'100%'} src={odinBookImg} /> */}
         </div>
 
         <div className="project-link-wrapper">
@@ -78,14 +73,13 @@ function Projects({ toggleBottomWrapper }) {
       <div className="card-wrapper">
         <div
           style={{
-            textAlign: 'center',
-            padding: '10px'
+            textAlign: 'center'
           }}
         >
           Shopping Cart
         </div>
-        <div className="card-img-wrapper">
-          <img width={'100%'} src={appleLogo} />
+        <div className="card-img-wrapper apple-img">
+          {/* <img width={'100%'} src={appleLogo} /> */}
         </div>
         <div className="project-link-wrapper">
           <a
@@ -111,15 +105,14 @@ function Projects({ toggleBottomWrapper }) {
       <div className="card-wrapper">
         <div
           style={{
-            textAlign: 'center',
-            padding: '10px'
+            textAlign: 'center'
           }}
         >
           Todo List
         </div>
 
-        <div className="card-img-wrapper">
-          <img width={'100%'} src={todoListImg} />
+        <div className="card-img-wrapper todolist-img">
+          {/* <img width={'100%'} src={todoListImg} /> */}
         </div>
 
         <div className="project-link-wrapper">
@@ -146,15 +139,14 @@ function Projects({ toggleBottomWrapper }) {
       <div className="card-wrapper">
         <div
           style={{
-            textAlign: 'center',
-            padding: '10px'
+            textAlign: 'center'
           }}
         >
           React Blog
         </div>
 
-        <div className="card-img-wrapper">
-          <img width={'100%'} src={reactBlogImg} />
+        <div className="card-img-wrapper reactblog-img">
+          {/* <img width={'100%'} src={reactBlogImg} /> */}
         </div>
 
         <div className="project-link-wrapper">
@@ -181,15 +173,14 @@ function Projects({ toggleBottomWrapper }) {
       <div className="card-wrapper">
         <div
           style={{
-            textAlign: 'center',
-            padding: '10px'
+            textAlign: 'center'
           }}
         >
           Dashboard
         </div>
 
-        <div className="card-img-wrapper">
-          <img width={'100%'} src={dashImg} />
+        <div className="card-img-wrapper dashboard-img">
+          {/* <img width={'100%'} src={dashImg} /> */}
         </div>
 
         <div className="project-link-wrapper">
@@ -216,15 +207,14 @@ function Projects({ toggleBottomWrapper }) {
       <div className="card-wrapper">
         <div
           style={{
-            textAlign: 'center',
-            padding: '10px'
+            textAlign: 'center'
           }}
         >
           Java Contact App
         </div>
 
-        <div className="card-img-wrapper">
-          <img width={'100%'} src={contactApp} />
+        <div className="card-img-wrapper java-img">
+          {/* <img width={'100%'} src={contactApp} /> */}
         </div>
 
         <div className="project-link-wrapper">
@@ -242,15 +232,14 @@ function Projects({ toggleBottomWrapper }) {
       <div className="card-wrapper">
         <div
           style={{
-            textAlign: 'center',
-            padding: '10px'
+            textAlign: 'center'
           }}
         >
           Landing Page
         </div>
 
-        <div className="card-img-wrapper">
-          <img width={'100%'} src={landingPage} />
+        <div className="card-img-wrapper landingpage-img">
+          {/* <img width={'100%'} src={landingPage} /> */}
         </div>
 
         <div className="project-link-wrapper">
@@ -277,14 +266,13 @@ function Projects({ toggleBottomWrapper }) {
       <div className="card-wrapper">
         <div
           style={{
-            textAlign: 'center',
-            padding: '10px'
+            textAlign: 'center'
           }}
         >
           Home Page
         </div>
-        <div className="card-img-wrapper">
-          <img width={'100%'} src={dogHomePage} />
+        <div className="card-img-wrapper homepage-img">
+          {/* <img width={'100%'} src={dogHomePage} /> */}
         </div>
         <div className="project-link-wrapper">
           <a
@@ -310,14 +298,13 @@ function Projects({ toggleBottomWrapper }) {
       <div className="card-wrapper">
         <div
           style={{
-            textAlign: 'center',
-            padding: '10px'
+            textAlign: 'center'
           }}
         >
           Multi Step Form
         </div>
-        <div className="card-img-wrapper">
-          <img width={'100%'} src={multiStepForm} />
+        <div className="card-img-wrapper multistepform-img">
+          {/* <img width={'100%'} src={multiStepForm} /> */}
         </div>
         <div className="project-link-wrapper">
           <a

@@ -1,51 +1,95 @@
 .card-wrapper {
-    width: 300px;
-    border: 1px solid red;
-}
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: var(--bole);
+  padding: 20px;
 
-.card-img-wrapper > img {
-    border-radius: 10px;
-}
-.card-img-wrapper > a > img {
-    border-radius: 10px;
 }
 
 .a-link {
-    display: flex;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
 
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 a:hover {
-    color: gray;
+  color: gray;
 }
 
 .project-link-wrapper {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .project-link-wrapper div:hover {
-    color: rgb(171, 171, 171);
-    text-decoration: underline;
+  color: rgb(171, 171, 171);
+  text-decoration: underline;
 }
 .project-info-wrapper {
-    color: white;
-    padding-top: 5px;
-    background-color: var(--bole);
+  color: white;
+  padding-top: 5px;
+  background-color: var(--bole);
 }
 
 .back-btn {
-    width: 100%;
-    padding: 5px;
-    border: none;
-    background-color: var(--buff);
+  width: 100%;
+  padding: 5px;
+  border: none;
+  background-color: var(--buff);
 }
 
 .back-btn:hover {
-    background-color: #c69476;
+  background-color: #c69476;
+}
+
+.card-img-wrapper {
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.netjets-img {
+  background-image: url(../images/netjets.png);
+}
+
+.odinbook-img {
+  background-image: url(../images/odinbook.png);
+}
+
+.apple-img {
+  background-image: url(../images/apple.png);
+}
+.todolist-img {
+  background-image: url(../images/todo-list.png);
+}
+
+.reactblog-img {
+  background-image: url(../images/react-blog.png);
+}
+
+.dashboard-img {
+  background-image: url(../images/dash.png);
+}
+
+.java-img {
+  background-image: url(../images/contact.png);
+}
+
+.landingpage-img {
+  background-image: url(../images/handshake.png);
+}
+
+.homepage-img {
+  background-image: url(../images/dog1.jpeg);
+}
+
+.multistepform-img {
+  background-image: url(../images/multi.png);
 }
