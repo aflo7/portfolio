@@ -3,7 +3,7 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 import '../styles/Projects.css';
 import { AiOutlineInfoCircle } from 'react-icons/ai';
 
-function Projects({ toggleBottomWrapper }) {
+const Projects = ({ toggleBottomWrapper }) => {
   return (
     <div className="project-wrapper">
       <div className="card-wrapper">
@@ -363,6 +363,36 @@ function Projects({ toggleBottomWrapper }) {
             textAlign: 'center'
           }}
         >
+          Library
+        </div>
+        <div className="card-img-wrapper angular-img"></div>
+        <div className="project-link-wrapper">
+          <a
+            href="https://aflo7.github.io/local-library/"
+            target="_blank"
+            className="a-link"
+          >
+            <div>Live&nbsp;</div>
+            <FaExternalLinkAlt style={{ color: 'white' }} />
+          </a>
+
+          <a
+            href="https://github.com/aflo7/local-library"
+            target="_blank"
+            className="a-link"
+          >
+            <div>Docs&nbsp;</div>
+            <FaExternalLinkAlt style={{ color: 'white' }} />
+          </a>
+        </div>
+      </div>
+
+      <div className="card-wrapper">
+        <div
+          style={{
+            textAlign: 'center'
+          }}
+        >
           Yahtzee
         </div>
         <div className="card-img-wrapper yahtzee-img"></div>
@@ -379,6 +409,6 @@ function Projects({ toggleBottomWrapper }) {
       </div>
     </div>
   );
-}
+};
 
 export default Projects;

@@ -77,7 +77,7 @@ a:hover {
 }
 
 .java-img {
-  background-image: url(../images/contact.png);
+  background-image: url(../images/java3.jpeg);
 }
 
 .landingpage-img {
@@ -103,4 +103,8 @@ a:hover {
 
 .yahtzee-img {
   background-image: url(../images/cpp.png);
+}
+
+.angular-img {
+  background-image: url(../images/angular2.png);
 }
