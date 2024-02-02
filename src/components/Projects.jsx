@@ -188,7 +188,7 @@ const Projects = ({ toggleBottomWrapper }) => {
             textAlign: 'center'
           }}
         >
-          Java Contact App
+          Contact App
         </div>
 
         <div className="card-img-wrapper java-img"></div>
