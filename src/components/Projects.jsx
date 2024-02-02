@@ -92,7 +92,7 @@ const Projects = ({ toggleBottomWrapper }) => {
             textAlign: 'center'
           }}
         >
-          Todo List
+          Todo App
         </div>
 
         <div className="card-img-wrapper todolist-img"></div>
