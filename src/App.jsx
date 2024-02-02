@@ -30,7 +30,6 @@ function App() {
             {showBottomWrapper && (
               <>
                 <Projects toggleBottomWrapper={toggleBottomWrapper} />
-                <Skills />
                 {/* <Education /> */}
               </>
             )}
@@ -106,6 +105,7 @@ function App() {
               </div>
             )}
 
+            <Skills />
             <Coursework />
 
             <Contact />
