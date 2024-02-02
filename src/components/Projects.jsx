@@ -1,17 +1,7 @@
 import React from 'react';
 import { FaExternalLinkAlt } from 'react-icons/fa';
-import reactBlogImg from '../images/react-blog.png';
-import todoListImg from '../images/todo-list.png';
-import odinBookImg from '../images/odinbook.png';
-import netJetsImg from '../images/netjets.png';
-import dashImg from '../images/dash.png';
-import contactApp from '../images/contact.png';
 import '../styles/Projects.css';
 import { AiOutlineInfoCircle } from 'react-icons/ai';
-import landingPage from '../images/handshake.png';
-import dogHomePage from '../images/dog1.jpeg';
-import multiStepForm from '../images/multi.png';
-import appleLogo from '../images/apple.png';
 
 function Projects({ toggleBottomWrapper }) {
   return (
@@ -24,9 +14,7 @@ function Projects({ toggleBottomWrapper }) {
         >
           NetJets Key Registry
         </div>
-        <div className="card-img-wrapper netjets-img">
-          {/* <img width={'100%'} src={netJetsImg} /> */}
-        </div>
+        <div className="card-img-wrapper netjets-img"></div>
 
         <div className="project-link-wrapper">
           <div className="a-link" onClick={toggleBottomWrapper}>
@@ -45,9 +33,7 @@ function Projects({ toggleBottomWrapper }) {
           Odinbook
         </div>
 
-        <div className="card-img-wrapper odinbook-img">
-          {/* <img width={'100%'} src={odinBookImg} /> */}
-        </div>
+        <div className="card-img-wrapper odinbook-img"></div>
 
         <div className="project-link-wrapper">
           <a
@@ -78,9 +64,7 @@ function Projects({ toggleBottomWrapper }) {
         >
           Shopping Cart
         </div>
-        <div className="card-img-wrapper apple-img">
-          {/* <img width={'100%'} src={appleLogo} /> */}
-        </div>
+        <div className="card-img-wrapper apple-img"></div>
         <div className="project-link-wrapper">
           <a
             href="https://aflo7.github.io/shopping-cart/"
@@ -111,9 +95,7 @@ function Projects({ toggleBottomWrapper }) {
           Todo List
         </div>
 
-        <div className="card-img-wrapper todolist-img">
-          {/* <img width={'100%'} src={todoListImg} /> */}
-        </div>
+        <div className="card-img-wrapper todolist-img"></div>
 
         <div className="project-link-wrapper">
           <a
@@ -145,9 +127,7 @@ function Projects({ toggleBottomWrapper }) {
           React Blog
         </div>
 
-        <div className="card-img-wrapper reactblog-img">
-          {/* <img width={'100%'} src={reactBlogImg} /> */}
-        </div>
+        <div className="card-img-wrapper reactblog-img"></div>
 
         <div className="project-link-wrapper">
           <a
@@ -179,9 +159,7 @@ function Projects({ toggleBottomWrapper }) {
           Dashboard
         </div>
 
-        <div className="card-img-wrapper dashboard-img">
-          {/* <img width={'100%'} src={dashImg} /> */}
-        </div>
+        <div className="card-img-wrapper dashboard-img"></div>
 
         <div className="project-link-wrapper">
           <a
@@ -213,9 +191,7 @@ function Projects({ toggleBottomWrapper }) {
           Java Contact App
         </div>
 
-        <div className="card-img-wrapper java-img">
-          {/* <img width={'100%'} src={contactApp} /> */}
-        </div>
+        <div className="card-img-wrapper java-img"></div>
 
         <div className="project-link-wrapper">
           <a
@@ -238,9 +214,7 @@ function Projects({ toggleBottomWrapper }) {
           Landing Page
         </div>
 
-        <div className="card-img-wrapper landingpage-img">
-          {/* <img width={'100%'} src={landingPage} /> */}
-        </div>
+        <div className="card-img-wrapper landingpage-img"></div>
 
         <div className="project-link-wrapper">
           <a
@@ -271,9 +245,7 @@ function Projects({ toggleBottomWrapper }) {
         >
           Home Page
         </div>
-        <div className="card-img-wrapper homepage-img">
-          {/* <img width={'100%'} src={dogHomePage} /> */}
-        </div>
+        <div className="card-img-wrapper homepage-img"></div>
         <div className="project-link-wrapper">
           <a
             href="https://aflo7.github.io/dog-homepage/"
@@ -303,9 +275,7 @@ function Projects({ toggleBottomWrapper }) {
         >
           Multi Step Form
         </div>
-        <div className="card-img-wrapper multistepform-img">
-          {/* <img width={'100%'} src={multiStepForm} /> */}
-        </div>
+        <div className="card-img-wrapper multistepform-img"></div>
         <div className="project-link-wrapper">
           <a
             href="https://aflo7.github.io/multi-step-form/"
@@ -335,9 +305,7 @@ function Projects({ toggleBottomWrapper }) {
         >
           Resume Builder
         </div>
-        <div className="card-img-wrapper resume-img">
-          {/* <img width={'100%'} src={multiStepForm} /> */}
-        </div>
+        <div className="card-img-wrapper resume-img"></div>
         <div className="project-link-wrapper">
           <a
             href="https://aflo7.github.io/cv-builder/"
@@ -365,11 +333,9 @@ function Projects({ toggleBottomWrapper }) {
             textAlign: 'center'
           }}
         >
-         Cloud Resume
+          Cloud Resume
         </div>
-        <div className="card-img-wrapper aws-img">
-          {/* <img width={'100%'} src={multiStepForm} /> */}
-        </div>
+        <div className="card-img-wrapper aws-img"></div>
         <div className="project-link-wrapper">
           <a
             href="https://01.andres-flores-cloud-resume.com/"
@@ -397,14 +363,10 @@ function Projects({ toggleBottomWrapper }) {
             textAlign: 'center'
           }}
         >
-         Yahtzee
+          Yahtzee
         </div>
-        <div className="card-img-wrapper yahtzee-img">
-          {/* <img width={'100%'} src={multiStepForm} /> */}
-        </div>
+        <div className="card-img-wrapper yahtzee-img"></div>
         <div className="project-link-wrapper">
-          
-
           <a
             href="https://github.com/aflo7/cloud-resume"
             target="_blank"
@@ -415,9 +377,6 @@ function Projects({ toggleBottomWrapper }) {
           </a>
         </div>
       </div>
-
-
-
     </div>
   );
 }
