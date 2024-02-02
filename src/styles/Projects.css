@@ -75,6 +75,8 @@ a:hover {
 
 .dashboard-img {
   background-image: url(../images/dash.png);
+  background-position: left;
+
 }
 
 .java-img {
@@ -91,6 +93,7 @@ a:hover {
 
 .multistepform-img {
   background-image: url(../images/multi.png);
+
 }
 
 .resume-img {
