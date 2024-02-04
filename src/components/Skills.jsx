@@ -10,8 +10,11 @@ import {
   SiPhp,
   SiNextdotjs,
   SiMongodb,
-  SiMysql,
-  SiExpress
+  SiPostgresql,
+  SiExpress,
+  SiPython,
+  SiDjango,
+  SiVuedotjs
 } from 'react-icons/si';
 import { CgCPlusPlus } from 'react-icons/cg';
 import { DiLinux } from 'react-icons/di';
@@ -68,6 +71,11 @@ function Skills() {
       </div>
 
       <div className="skill-wrapper">
+        <p>Vue</p>
+        <SiVuedotjs size={'3rem'} />
+      </div>
+
+      <div className="skill-wrapper">
         <p>Next.js</p>
         <SiNextdotjs size={'3rem'} />
       </div>
@@ -93,13 +101,22 @@ function Skills() {
       </div>
 
       <div className="skill-wrapper">
-        <p>MySQL</p>
-        <SiMysql size={'3rem'} />
+        <p>PostgreSQL</p>
+        <SiPostgresql size={'3rem'} />
       </div>
 
       <div className="skill-wrapper">
         <p>VS Code</p>
         <TbBrandVscode size={'3rem'} />
+      </div>
+
+      <div className="skill-wrapper">
+        <p>Python</p>
+        <SiPython size={'3rem'} />
+      </div>
+      <div className="skill-wrapper">
+        <p>Django</p>
+        <SiDjango size={'3rem'} />
       </div>
     </div>
   );
