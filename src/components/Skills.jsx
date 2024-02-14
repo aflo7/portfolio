@@ -22,7 +22,7 @@ import { GrGraphQl } from 'react-icons/gr';
 import { FaReact, FaJava, FaAws } from 'react-icons/fa';
 import { TbBrandVscode } from 'react-icons/tb';
 
-function Skills() {
+export default function Skills() {
   return (
     <div className="skills-wrapper" style={{color: 'black'}}>
       <div className="skill-wrapper">
@@ -121,5 +121,3 @@ function Skills() {
     </div>
   );
 }
-
-export default Skills;
