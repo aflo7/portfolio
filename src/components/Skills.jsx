@@ -95,10 +95,10 @@ export default function Skills() {
         <DiLinux size={'3rem'} />
       </div>
 
-      <div className="skill-wrapper">
+      {/* <div className="skill-wrapper">
         <p>Java</p>
         <FaJava size={'3rem'} />
-      </div>
+      </div> */}
 
       <div className="skill-wrapper">
         <p>PostgreSQL</p>
@@ -114,10 +114,10 @@ export default function Skills() {
         <p>Python</p>
         <SiPython size={'3rem'} />
       </div>
-      <div className="skill-wrapper">
+      {/* <div className="skill-wrapper">
         <p>Django</p>
         <SiDjango size={'3rem'} />
-      </div>
+      </div> */}
     </div>
   );
 }
