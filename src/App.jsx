@@ -108,7 +108,8 @@ function App() {
             <Skills />
             <Coursework />
 
-            <Contact />
+            {/* <Contact /> */}
+<div className="footer-wrapper">
 
             <footer>
               <div className="github-link">
@@ -117,6 +118,7 @@ function App() {
                 </a>
               </div>
             </footer>
+</div>
           </div>
         </div>
       </div>

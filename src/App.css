@@ -123,6 +123,17 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 12pt;
+  /* padding-top: 20px; */
+  /* margin-top: 20px; */
+  
+}
+
+.footer-wrapper {
+  /* border: 1px solid red; */
+  padding-top: 10px;
+  /* background-color: var(--bean); */
+  background-color: var(--bole);
+
 }
 
 @media screen and (min-width: 800px) {
