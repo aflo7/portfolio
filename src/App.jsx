@@ -23,9 +23,7 @@ function App() {
       <div className="app-wrapper">
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <div style={{ display: 'flex', flexDirection: 'column' }}>
-            <div className="info-wrapper">
-              
-            </div>
+            <div className="info-wrapper"></div>
 
             {showBottomWrapper && (
               <>
@@ -109,16 +107,15 @@ function App() {
             <Coursework />
 
             {/* <Contact /> */}
-<div className="footer-wrapper">
-
-            <footer>
-              <div className="github-link">
-                <a href="https://github.com/aflo7" target="_blank">
-                  <AiFillGithub size={'2rem'} style={{ color: 'white' }} />
-                </a>
-              </div>
-            </footer>
-</div>
+            <div className="footer-wrapper">
+              <footer>
+                <div className="github-link">
+                  <a href="https://github.com/aflo7" target="_blank">
+                    <AiFillGithub size={'2rem'} style={{ color: 'white' }} />
+                  </a>
+                </div>
+              </footer>
+            </div>
           </div>
         </div>
       </div>
