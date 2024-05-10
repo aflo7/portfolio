@@ -63,15 +63,17 @@ div {
 
 .skills-wrapper div {
   color: black;
+
 }
 
+
 .info-wrapper {
-  height: 450px;
+  height: 400px;
   background-image: url(./images/20518370.jpeg);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  /* opacity: 0.2; */
+  opacity: 0.8;
 }
 
 .main {
@@ -94,11 +96,6 @@ div {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  position: fixed;
-  top: 0;
-  /* height: 40px; */
-  /* opacity: 1; */
-
 }
 
 .skill-wrapper {
@@ -128,6 +125,7 @@ footer {
   font-size: 12pt;
   /* padding-top: 20px; */
   /* margin-top: 20px; */
+  
 }
 
 .footer-wrapper {
@@ -135,6 +133,7 @@ footer {
   padding-top: 10px;
   /* background-color: var(--bean); */
   background-color: var(--bole);
+
 }
 
 @media screen and (min-width: 800px) {
